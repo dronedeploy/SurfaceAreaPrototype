@@ -82,6 +82,7 @@ def compare_surface_area(filename, expected):
     #Extracting data from dictionary
     resolution = dict_json['res'][0]
     nodata = dict_json['nodata']
+
     #count_layer = dict_json['count']
     
     #Making sure the nodata don't get called during area calculations
